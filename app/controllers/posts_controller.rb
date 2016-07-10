@@ -18,5 +18,16 @@ class PostsController < ApplicationController
   def show
     @post = Post.find(params[:id])
   end
+
+  # GET /posts
+  # GET /posts.json
+  def index
+    @posts = Post.all
+  end
+
+  # GET /posts/1/edit
+  def edit
+    @post = Post.find(params[:id])
+  end
   
 end
