@@ -1,5 +1,7 @@
 #rails-seminar
 
+##Ruby on Railsセミナ-
+
 記事、カテゴリ、コメントを持つブログサービスの作成
 
 - 記事一覧：localhost:3000/posts/
